@@ -13,15 +13,7 @@
   }
 }
 
-.black-nav {
-  background: black;
-  width:100%;
-  display: flex;
-  color: aliceblue;
-  padding: 20px;
-  font-weight: 600;
-  font-size: 20px;
-}
+
 
 .modal{
   margin-top: 20px;
@@ -30,16 +22,13 @@
   text-align: center;
 }
 
-ul {
-  list-style: none;
- 
+.list {
   padding-left: 2ch;
 
 }
 
 .menu {
   width: 100%;  
-  float: left;
   font-weight: 600;
   font-size: 20px;  
  
