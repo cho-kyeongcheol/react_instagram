@@ -24,22 +24,23 @@ function App() {
       <Header />
       
  
-    <button onClick={ 제목바꾸기 } >버튼</button>
+    
     <div className="list">
       <h3>{ 글제목[0] } <span onClick={ ()=>{ 좋아요변경(좋아요 + 1) } }>👍</span></h3>
       <p>12월 3일</p>
       <hr/>
     </div>
     <div className="list">
-      <h3>{ 글제목[1] }</h3>
+      <h3>{ 글제목[1] }<span onClick={ ()=>{ 좋아요변경(좋아요 + 1) } }>👍</span></h3>
       <p>12월 4일</p>
       <hr/>
     </div>
     <div className="list">
-      <h3>{ 글제목[2] }</h3>
+      <h3>{ 글제목[2] }<span onClick={ ()=>{ 좋아요변경(좋아요 + 1) } }>👍</span></h3>
       <p>12월 5일</p>      
       <hr/>
     </div>
+    <button onClick={ 제목바꾸기 } >버튼</button>
     <Model />
     <hr />
 
