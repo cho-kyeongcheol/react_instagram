@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import './Header.css';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { Home, First, Second, Third } from '../../../pages';
+
 
 const MenuItem = ({active, children, to}) => (
   <div className="menu-item">
@@ -13,22 +16,25 @@ class Header extends Component {
   render() {
     return(
 
-        <div>
+        <div className="apps">
           <div className="black-nav">
-              개발
+              Instagrang
           </div>
           <div className="menu">
-            <MenuItem>홈</MenuItem>
-            <MenuItem>소개</MenuItem>
-            <MenuItem>포스트</MenuItem>
-          </div>
-
-          
-
-         
+        <Link to="/"><MenuItem>🏠</MenuItem></Link>
+        <Link to="/first"><MenuItem>🔎</MenuItem></Link>
+        <Link to="/second"><MenuItem>❤</MenuItem></Link>
+        <Link to="/third"><MenuItem>⚽</MenuItem></Link>
         </div>
 
+        <div>   
+          <Route exact path='/' component={Home}/>
+          <Route path='/first' component={First}/>
+          <Route path='/second' component={Second}/>
+          <Route path='/third' component={Third}/>
+        </div>
 
+        </div>
 
       );
     

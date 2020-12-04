@@ -1,5 +1,8 @@
 .App {
   text-align: LEFT;
+  background: #eeeeee;
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .App-logo {
@@ -13,17 +16,16 @@
   }
 }
 
-
-
 .modal{
   margin-top: 20px;
   padding :20px;
   background: #eeeeee;
-  text-align: center;
+  text-align: left;
 }
 
 .list {
   padding-left: 2ch;
+  padding-top: 1.5ch;;
 
 }
 
@@ -34,9 +36,42 @@
  
 }
 
-.menu-item {
+.mainImg{
+  width: 100%;
+}
+
+.profile {
+  width: 30px;
+  border-radius: 10cm;
 
 }
+.story-profile {
+  padding-left: 5px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.profiles {
+  width: 50px;
+  height: 50px;
+  border-radius: 10cm;
+  margin-left: 7px;
+  border : solid 2px red;  
+}
+
+.stoCanvas {
+  border-radius: 10cm;
+  margin-top: 15px;
+  margin-left: 10px;
+  border : solid 1px red;  
+}
+
+.slide {
+  width: 100%;
+  height: 300px;
+  margin: 20px 20px 20px 20px;
+}
+
 
 
 .App-link {

@@ -5,23 +5,33 @@
   color: aliceblue;
   padding: 20px;
   font-weight: bold;
-  font-size: 25px;
-  height : 30px;
+  font-size: 20px;
+  height : 20px;
   text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .menu {
   background-color: #343a40;
   height: 3.5rem;
+  font-size: 20px;
+  
 }
 
 .menu-item {
   display: inline-block;
   color: bisque;
   line-height: 3.5rem;
-  width: 33.3333%;
+  width: 25%;
   text-align: center;
-  cursor: pointer;
-  transition: background-color 0.3s;
+  cursor: pointer;  
   text-decoration: none;
+}
+
+.apps {
+  
+  
 }
